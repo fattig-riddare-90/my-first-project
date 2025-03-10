@@ -2,6 +2,11 @@
 body {
     background-color: lightgrey;
     background-image: url("../images/01-02-02_background-img.jpg");
+    background-size: cover; /* Gör så att bilden täcker hela skärmen */
+    background-position: center; /* Centrerar bilden */
+    background-repeat: no-repeat; /* Förhindrar upprepning */
+    height: 100vh; /* Gör så att body täcker hela viewportens höjd */
+    margin: 0; /* Tar bort marginaler för att undvika vita kanter */
 }
 h2 {
     color:orangered;
